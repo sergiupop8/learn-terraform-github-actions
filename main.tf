@@ -20,6 +20,7 @@ terraform {
     }
   }
 }
+}
 /*  backend "remote" {
     organization = "ACG-Terraform-Sego"
 
