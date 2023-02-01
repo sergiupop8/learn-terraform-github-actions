@@ -20,7 +20,7 @@ terraform {
     }
   }
 }
-*/  backend "remote" {
+/*  backend "remote" {
     organization = "ACG-Terraform-Sego"
 
     workspaces {
@@ -28,7 +28,7 @@ terraform {
     }
   }
 }
-/*
+*/
 
 provider "aws" {
   region = "us-east-1"
