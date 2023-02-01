@@ -11,7 +11,7 @@ terraform {
   }
   required_version = "~> 1.0"
 
-  terraform {
+ 
   cloud {
     organization = "ACG-Terraform-Sego"
 
@@ -20,7 +20,7 @@ terraform {
     }
   }
 }
-}
+
 /*  backend "remote" {
     organization = "ACG-Terraform-Sego"
 
