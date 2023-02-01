@@ -11,7 +11,8 @@ terraform {
   }
   required_version = "~> 1.0"
 
-  backend "remote" {
+  terraform {
+  cloud {
     organization = "ACG-Terraform-Sego"
 
     workspaces {
@@ -19,7 +20,15 @@ terraform {
     }
   }
 }
+*/  backend "remote" {
+    organization = "ACG-Terraform-Sego"
 
+    workspaces {
+      name = "demo-github-actions"
+    }
+  }
+}
+/*
 
 provider "aws" {
   region = "us-east-1"
